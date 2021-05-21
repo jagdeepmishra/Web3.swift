@@ -18,7 +18,7 @@ let package = Package(
     dependencies: [
         // Core dependencies
         .package(url: "https://github.com/attaswift/BigInt.git", from: "4.0.0"),
-        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.0.0"),
+        .package(url: "https://github.com/krzyzanowskim/PPCryptoSwift.git", from: "1.0.0"),
         .package(url: "https://github.com/Boilertalk/secp256k1.swift.git", from: "0.1.1"),
 
         // PromiseKit dependency
@@ -31,7 +31,7 @@ let package = Package(
     targets: [
         .target(
             name: "Web3",
-            dependencies: ["BigInt", "CryptoSwift", "secp256k1"],
+            dependencies: ["BigInt", "PPCryptoSwift", "secp256k1"],
             path: "Web3/Classes",
             sources: ["Core", "FoundationHTTP"]),
         .target(
@@ -41,7 +41,7 @@ let package = Package(
             sources: ["PromiseKit"]),
         .target(
             name: "Web3ContractABI",
-            dependencies: ["Web3", "BigInt", "CryptoSwift"],
+            dependencies: ["Web3", "BigInt", "PPCryptoSwift"],
             path: "Web3/Classes",
             sources: ["ContractABI"]),
         .testTarget(

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import CryptoSwift
+import PPCryptoSwift
 import BigInt
 
 public struct EthereumQuantityTag {

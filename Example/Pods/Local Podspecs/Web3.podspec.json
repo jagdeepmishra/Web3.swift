@@ -37,7 +37,7 @@
         "BigInt": [
           "~> 4.0"
         ],
-        "CryptoSwift": [
+        "PPCryptoSwift": [
           "~> 1.0"
         ],
         "secp256k1.swift": [

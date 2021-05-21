@@ -8,7 +8,7 @@
 
 import Foundation
 import secp256k1
-import CryptoSwift
+import PPCryptoSwift
 import BigInt
 
 public final class EthereumPublicKey {

@@ -1,6 +1,6 @@
 PODS:
   - BigInt (4.0.0)
-  - CryptoSwift (1.0.0)
+  - PPCryptoSwift (1.0.0)
   - Nimble (8.0.2)
   - PromiseKit/CorePromise (6.10.0)
   - Quick (2.1.0)
@@ -12,7 +12,7 @@ PODS:
     - Web3/Core
   - Web3/Core (0.4.1):
     - BigInt (~> 4.0)
-    - CryptoSwift (~> 1.0)
+    - PPCryptoSwift (~> 1.0)
     - secp256k1.swift (~> 0.1)
   - Web3/HTTPExtension (0.4.1):
     - Web3/Core
@@ -30,7 +30,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - BigInt
-    - CryptoSwift
+    - PPCryptoSwift
     - Nimble
     - PromiseKit
     - Quick
@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BigInt: 2aad1a9942dc932ec8b84290d2c564a3d76f97ab
-  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  PPCryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d

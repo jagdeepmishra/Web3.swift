@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CryptoSwiftVersionNumber;
-FOUNDATION_EXPORT const unsigned char CryptoSwiftVersionString[];
+FOUNDATION_EXPORT double PPCryptoSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char PPCryptoSwiftVersionString[];
 

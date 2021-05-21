@@ -1,5 +1,5 @@
 //
-//  CryptoSwift
+//  PPCryptoSwift
 //
 //  Created by Marcin Krzyzanowski on 12/08/14.
 //  Copyright (C) 2014-2017 Marcin Krzyżanowski <marcin@krzyzanowskim.com>

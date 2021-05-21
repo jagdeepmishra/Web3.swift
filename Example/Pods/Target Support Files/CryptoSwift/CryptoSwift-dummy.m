@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_CryptoSwift : NSObject
+@interface PodsDummy_PPCryptoSwift : NSObject
 @end
-@implementation PodsDummy_CryptoSwift
+@implementation PodsDummy_PPCryptoSwift
 @end
